@@ -1,0 +1,54 @@
+
+
+{
+    "productos": [
+        {
+            "id_producto": 1,
+            "nombre_producto" : "reloj Valkur",
+            "imagen_producto" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxg0bCe2fIIM3mVjnH2udw-qUfCdCMkvxsRdAlEO6zdHCEMcEaCdjzQ5ldnQYukU15qg0&usqp=CAU",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 100.000,
+            "categoria_producto": 6
+        },
+        {
+            "id_producto": 2,
+            "nombre_producto" : "pulsera de cuero",
+            "imagen_producto" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSYXNT-xq957fXw37rQyAeKzFL4FWzrPOD5g&usqp=CAU",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 12.500,
+            "categoria_producto": 5
+        },
+        {
+            "id_producto": 3,
+            "nombre_producto" : "anillo Black Goku",
+            "imagen_producto" : "https://http2.mlstatic.com/D_NQ_NP_994397-MLA50270339792_062022-O.webp",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 122.900,
+            "categoria_producto": 7
+        },
+        {
+            "id_producto": 4,
+            "nombre_producto" : "perfume invictus",
+            "imagen_producto" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfkDwKfaLTli8aG0CImWs3Fb-ii_14c0mZw&usqp=CAU",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 82.120,
+            "categoria_producto": 4
+        },
+        {
+            "id_producto": 5,
+            "nombre_producto" : "billetera de cuero",
+            "imagen_producto" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7CwGg6xeznIE-KPRWOA0Cvfx1uQ1-QBZbxDBMLMdcA-Ct7TDB4Adng9pfnl5A9_TR2E&usqp=CAU",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 8.900,
+            "categoria_producto": 1
+        },
+        {
+            "id_producto": 6,
+            "nombre_producto" : "anteojos de sol",
+            "imagen_producto" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFxxLfqxa59xjtWOL9xGVRyIRYiFme9pxcA&usqp=CAU",
+            "descripcion_producto": "minimalista y elegante, excelente opcion para todos los dias",
+            "precio_producto": 8.900,
+            "categoria_producto": 8
+        }
+    ]
+}

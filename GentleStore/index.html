@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>GentleStore</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="titulo">
+        <a href="index.html" class="logo">GentleStore</a>
+        <h3>Accesorios para hombres</h3>
+      </div>
+      <div class="contenedorNav">
+        <nav class="navPrincipal">
+          <a class="enlace" href="acerca.html">Acerca</a>
+          <a class="enlace" href="contacto.html">Contacto</a>
+          <a class="enlace" href="">Promociones</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <article class="textoArriba">
+          Encontra en un solo lugar los mejores accesorios para hombres, para
+          usar dia a dia o para una noche diferente.
+        </article>
+      </section>
+
+      <div class="barraBusqueda">
+        <div class="">
+          <label for="categorias" id="labelCategorias"
+            >Nuestras categorias:</label
+          >
+          <select id="categoriaSelect">
+            <option value="" selected>Busqueda rapida 👇</option>
+            <option value="7">anillos</option>
+            <option value="8">anteojos</option>
+            <option value="1">billeteras</option>
+            <option value="2">cinturones</option>
+            <option value="3">collares</option>
+            <option value="4">perfumes</option>
+            <option value="5">pulseras</option>
+            <option value="6">relojes</option>
+          </select>
+        </div>
+
+        <a href="#">Oferta de la semana</a>
+      </div>
+      <section class="sectionContenedores" id="contenedores"></section>
+      <section class="segundoBanner">
+        <h5 class="textoAmarillo">Los mejores</h5>
+        <h5 class="textoAmarillo">Productos</h5>
+        <h5 class="textoAmarillo">Al alcance</h5>
+        <h5 class="textoAmarillo">De</h5>
+        <h5 class="textoAmarillo">Tu</h5>
+        <h5 class="textoAmarillo">Mano</h5>
+      </section>
+      <section class="section__destacados">
+        <h4>Destacados de la semana</h4>
+
+        <div class="destacados">
+          <div class="destacados__izq">
+            <p class="destacados__texto">
+              Sweaters 100% de algodon en variedad de colores lisos.
+              <br />Visita la seccion de ofertas para conocer en detalle cada
+              uno de los productos
+            </p>
+            <button id="boton_promociones" class="button type1">
+              <span class="btn-txt">Ir a promociones</span>
+            </button>
+          </div>
+          <img
+          class="destacados__img"
+          src="src/img/pagina/remeras.jpg"
+          alt="remeras"
+        />
+        </div>
+
+        
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="linksFooter">
+        <a class="enlaceFooter" href="/acerca.html">Acerca</a>
+        <a class="enlaceFooter" href="/contacto.html">Contacto</a>
+        <a class="enlaceFooter" href="/promociones.html">Promociones</a>
+      </div>
+      <p class="finalFooter">
+        GentleStore. Desarrollado por
+        <a
+          class="linked"
+          href="https://www.linkedin.com/in/matias-almasia-505101209/"
+          target="_blank"
+        >
+          Matias Almasia</a
+        >
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
